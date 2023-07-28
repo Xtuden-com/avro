@@ -60,7 +60,7 @@
     <tukaani.version>1.8</tukaani.version>
     <easymock.version>4.2</easymock.version>
     <hamcrest.version>2.2</hamcrest.version>
-    <grpc.version>1.33.1</grpc.version>
+    <grpc.version>1.57.0</grpc.version>
     <zstd-jni.version>1.4.5-12</zstd-jni.version>
     <!-- version properties for plugins -->
     <archetype-plugin.version>3.1.2</archetype-plugin.version>
@@ -359,7 +359,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -373,7 +373,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -386,7 +386,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -399,7 +399,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -414,7 +414,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
