@@ -39,7 +39,7 @@
 
     <!-- version properties for dependencies -->
 
-    <hadoop.version>3.2.1</hadoop.version>
+    <hadoop.version>3.3.4</hadoop.version>
     <jackson.version>2.11.3</jackson.version>
     <jackson.databind.version>2.11.3</jackson.databind.version>
     <servlet-api.version>4.0.1</servlet-api.version>
@@ -49,7 +49,7 @@
     <netty.version>4.1.54.Final</netty.version>
     <protobuf.version>3.12.0</protobuf.version>
     <thrift.version>0.13.0</thrift.version>
-    <slf4j.version>1.7.30</slf4j.version>
+    <slf4j.version>1.7.34</slf4j.version>
     <snappy.version>1.1.8.1</snappy.version>
     <velocity.version>2.2</velocity.version>
     <maven.version>3.3.9</maven.version>
@@ -359,7 +359,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -373,7 +373,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -386,7 +386,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -399,7 +399,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -414,7 +414,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
@@ -478,7 +478,7 @@
     <profile>
       <id>hadoop2</id>
       <properties>
-        <hadoop.version>2.7.7</hadoop.version>
+        <hadoop.version>3.3.4</hadoop.version>
       </properties>
     </profile>
   </profiles>
