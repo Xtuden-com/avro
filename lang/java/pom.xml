@@ -52,7 +52,7 @@
     <slf4j.version>1.7.30</slf4j.version>
     <snappy.version>1.1.8.1</snappy.version>
     <velocity.version>2.2</velocity.version>
-    <maven.version>3.3.9</maven.version>
+    <maven.version>3.9.6</maven.version>
     <ant.version>1.10.9</ant.version>
     <commons-cli.version>1.4</commons-cli.version>
     <commons-compress.version>1.20</commons-compress.version>
@@ -359,7 +359,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore></ignore>
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -373,7 +373,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -386,7 +386,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -399,7 +399,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                     <pluginExecution>
@@ -414,7 +414,7 @@
                         </goals>
                       </pluginExecutionFilter>
                       <action>
-                        <ignore />
+                        <ignore/>
                       </action>
                     </pluginExecution>
                   </pluginExecutions>
